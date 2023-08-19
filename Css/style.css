@@ -6,12 +6,11 @@
 
 body{
     background: #1F2732;
-    /* height: 100vh;
-    width: 100vw; */
 }
 
 header{
-    padding: 40px 120px;
+    padding: 30px 120px;
+    z-index: 1000;
 }
 
 header section{
@@ -22,17 +21,44 @@ header section{
     /* border: 1px solid red; */
 }
 
+.header__logoYtitulo{
+    display: flex;
+    align-items: center;
+}
+
+.header__logoYtitulo img{
+    width: 50px;
+}
+
+.header__logoYtitulo h1{
+    font-size: 34px;
+    margin-left: 14px;
+    margin-top: 8px;
+}
+
 .header__compra{
     display: flex;
     align-items: center;
 }
 
 .compra__cart{
-    padding-right: 20px;
+    padding-right: 30px;
+    display: flex;
 }
 
+.compra__cart img{
+    width: 20px;
+}
+
+.compra__cart p{
+    margin-top: 4px;
+    margin-left: 8px;
+}
+
+
+
 .compra__boton{
-    height: 46px;
+    height: 50px;
     width: 160px;
     background: #2E3947;
     display: flex;
@@ -45,9 +71,11 @@ header article{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 30px;
+    height: 80px;
     border-top: 1px solid #2E3947;
     border-bottom: 1px solid #2E3947;
+    /* border: 1px solid red; */
 }
 
 .header__nav ul{
@@ -65,6 +93,431 @@ header article{
     display: flex;
 }
 
-.header__telefono{
-    margin-right: 60px;
+.header__contacto figure{
+    border: 2px solid #D1B06B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    margin-right: 10px;
+    border-radius: 50%;
 }
+
+.header__telefono{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color--header{
+    color: #D1B06B;
+}
+
+.header__correo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondo__perfil{
+    position: absolute;
+    width: 98vw;
+    z-index: -1000;
+}
+
+.fondo__perfil .fondo__principal{
+    width: 98.5vw;
+    height: auto;
+}
+
+.fondo__perfil div{
+    position: absolute;
+    top: 164px;
+    width: 97vw;
+}
+
+.foto__perfil{
+    width: 100%;
+    height: 98vh;
+}
+
+.descricion__perfil{
+    padding-left: 120px;
+    margin-top: 60px;
+}
+
+.descricion__perfil h2{
+    color: white;
+    margin-top: 10px;
+    font-size: 42px;
+    max-width: 460px;
+}
+
+.descricion__perfil p{
+    color: #D1B06B;
+    margin-top: 10px;
+    font-size: 18px;
+    max-width: 460px;
+}
+
+.descricion__perfil button{
+    background: #D1B06B;
+    border: none;
+    margin-top: 26px;
+    padding: 20px 34px;
+    font-weight: 700;
+    cursor: pointer;
+    user-select: none;
+}
+
+.section__litijios{
+    margin-top: 34%;
+    margin-left: 200px;
+    /* border: 1px solid red; */
+    width: 70vw;
+    display: flex;
+}
+
+.litijios__img .litijios__img1{
+    width: 330px;
+    height: 220px;
+}
+
+.litijios__img .litijios__img2{
+    margin-top: 20px;
+    width: 330px;
+    height: 220px;
+}
+
+.section__litijios .article__litijios{
+    color: white;
+    margin-left: 40px;
+}
+
+.article__litijios h2{
+    margin-top: 10px;
+    font-size: 28px;
+    padding-bottom: 12px;
+}
+
+.article__litijios p{
+    max-width: 1120px;
+    margin-top: 20px;
+}
+
+.icon__nombre{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.icon__nombre div{
+    background: #161D27;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.icon__nombre img{
+    margin-top: 4px;
+    width: 78px;
+    border-radius: 50%;
+}
+
+.icon__nombre h3{
+    margin-left: 20px;
+}
+
+.exitos__esperiencia{
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.exitos__esperiencia div{
+    width: 200px;
+    height: 70px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.litijios__exitos{
+    background: #3B434E;
+}
+
+.litijios__exitos img{
+    margin-left: 30px;
+    width: 40px;
+}
+
+.litijios__exitos p{
+    margin-left: 10px;
+    margin-bottom: 16px;
+}
+
+.litijios__esperiencia{
+    background: #D1B06B;
+}
+
+.litijios__esperiencia h3{
+    margin-left: 30px;
+    padding: 8px 10px;
+    border-radius: 4px;
+    background: #1F2732;
+}
+
+.litijios__esperiencia p{
+    margin-left: 10px;
+    margin-bottom: 16px;
+    color: #1F2732;
+}
+
+.areaDe__practica{
+    background: #161D27;
+    margin-top: 80px;
+    height: 800px;
+}
+
+.areaDe__practica__descripcion{
+    color: white;
+    padding-top: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 82vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linea__descripcion{
+    background: #D1B06B;
+    width: 1px;
+    height: 80px;
+}
+
+.areaDe__practica__parrafo{
+    width: 530px;
+}
+
+.areaDe__practica__parrafo span{
+    color: #D1B06B;
+}
+
+.areaDe__practica__article{
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 82vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.areaDe__practica__article .article__cuadro{
+    background: #1F2732;
+    color: white;
+    width: 366px;
+    height: 220px;
+}
+
+.article__cuadro h3{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+.article__cuadro p{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.article__cuadro .linea__cuadro{
+    background: #3A4553;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 1px;
+    width: 80%;
+}
+
+.article__cuadro__imgBoton{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.article__cuadro__imgBoton img{
+    width: 40px;
+}
+
+.article__cuadro__imgBoton button{
+    background: #161D27;
+    border: none;
+    padding: 14px 20px;
+    color: white;
+}
+
+.article__cuadro__imgBoton .diferente--color{
+    background: #D1B06B;
+    color: #161D27;
+}
+
+.ayudar__problema{
+    background: white;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+.ayudar__problema .ayudar__problema__conten{
+    margin-top: 80px;
+    width: 80vw;
+    height: 90%;
+    display: grid;
+    justify-items: center;
+}
+
+.ayudar__problema__titulo{
+    text-align: center;
+}
+
+.ayudar__problema__titulo h2{
+    font-size: 28px;
+}
+
+.ayudar__problema__titulo img{
+    margin-top: 20px;
+}
+
+.ayuda__parrafo{
+    width: 520px;
+    text-align: center;
+}
+
+.sobre__problemas{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.problema__1,
+.problema__2{
+    background: #eeeeeea6;
+    width: 280px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.problema__1 img,
+.problema__2 img{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.problema__p1{
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.problema__p2{
+    margin-left: 8px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.70);
+}
+
+.climinal__defendidos{
+    width: 360px;
+}
+
+.linea__problema{
+    height: 1px;
+    width: 1000px;
+    background: rgba(0, 0, 0, 0.20);
+    margin-top: 30px;
+}
+
+.content__partners{
+    display: grid;
+    place-items: center;
+    margin-top: 30px;
+}
+
+.title__partners{
+    display: flex;
+    align-items: center;
+}
+
+.title__partners h3{
+    font-size: 28px;
+    padding: 0px 30px;
+}
+
+.iconos__marca{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.iconos__marca img{
+    margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos del input range
+.input {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30%;
+    height: 10px;
+    background: linear-gradient(to right, #1F2732 0%, #1F2732 50%, white 50%, white 100%);
+    border: 1px solid #1F2732;
+    border-radius: 20px;
+}
+
+Estilo del thumb (control deslizante)
+.input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #1F2732;
+    border-radius: 50%;
+    cursor: pointer;
+} */
+
+  
