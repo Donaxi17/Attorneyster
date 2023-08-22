@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Cormorant Garamond;
+    font-family: 'Cormorant Garamond', serif;
     
 }
 main{
@@ -25,10 +25,10 @@ samp{
     color: #D1B06B;
 }
 .conte_derecha{
-    width: 500px;
+    width: 40vw;
     display: flex;
     flex-direction: column;
-    gap: 34px;
+    gap: 14px;
     justify-content: center;
     
   
@@ -36,12 +36,14 @@ samp{
 .conte_derecha h2{
     border-top: 2px solid #3A4553;
     color: #FFF;
-    font-size: 35px;
+    font-size: 25px;
+    padding: 20px 0px;
+    font-weight: 100;
 }
 
 .conte_derecha p{
     font-size: 22px;
-    color: #D7D7D7;  
+    color: #D7D7D7; 
 }
 .conte__blog{
     border: 1px solid rebeccapurple;
@@ -59,15 +61,24 @@ samp{
     text-decoration: underline;
 }
 .conte_blog_infor{
-    border: 1px solid red;
     width: 450px;
-    
 }
 .conte_1{
     width: 100vw;
-    border: 2px solid yellow;
     display: flex;
     justify-content: center;
+}
+.conte__infor h2{
+    color: #FFF;
+    border-top: 2px solid #3A4553;
+    
+}
+.conte__infor p{
+    padding: 10px 0px;
+    color: #D7D7D7;
+}
+ .leer_mas{
+  padding: 20px 0px ;  
 }
 
 
