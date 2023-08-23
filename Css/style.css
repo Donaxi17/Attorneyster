@@ -18,7 +18,7 @@ header section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* border: 1px solid red; */
+
 }
 
 .header__logoYtitulo{
@@ -75,7 +75,6 @@ header article{
     height: 80px;
     border-top: 1px solid #2E3947;
     border-bottom: 1px solid #2E3947;
-    /* border: 1px solid red; */
 }
 
 .header__nav ul{
@@ -617,8 +616,8 @@ header article{
 
 .reseñas_clientes{
     background: #1F2732;
-    width: 100vw;
-    height: 600px;
+    width: 100%;
+    height: 700px;
     display: flex;
     justify-content: center;
 }
@@ -631,7 +630,7 @@ header article{
 .titulo_rc{
     display: grid;
     place-items: center;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .titulo_rc img{
@@ -644,10 +643,6 @@ header article{
     justify-content: center;
     gap: 20px;
 }
-
-/* .content__section_rc{
-    border: 1px solid #2E3947;
-} */
 
 .content__section_rc .content1__descripcion{
     background: #2E3947;
@@ -694,27 +689,88 @@ header article{
     margin-bottom: 10px;
 }
 
-
-/* Estilos del input range
-.input {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 30%;
-    height: 10px;
-    background: linear-gradient(to right, #1F2732 0%, #1F2732 50%, white 50%, white 100%);
-    border: 1px solid #1F2732;
-    border-radius: 20px;
+.respuestas_abogado{
+    width: 100%;
+    height: 800px;
+    background: white;
 }
 
-Estilo del thumb (control deslizante)
-.input::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    background: #1F2732;
-    border-radius: 50%;
-    cursor: pointer;
-} */
+.respuestas__titulo{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
 
-  
+.respuestas__titulo div{
+    margin-top: 80px;
+}
+
+.respuestas__titulo img{
+    margin-top: 20px;
+    width: 80px;
+}
+
+.respuestas__article{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 30px;
+}
+
+.content__abogados{
+    position: relative;
+}
+
+.respuestas__article .foto__3abogados{
+    width: 220px;
+}
+
+.redes__abogados{
+    background: white;
+    position: absolute;
+    bottom: -40px;
+    left: 40px;
+    height: 80px;
+    width: 140px;
+    text-align: center;
+}
+
+.redes__abogados h3{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.redes__abogados p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #D1B06B;
+    margin-top: 4px;
+}
+
+.redes__socialesAbogados img{
+    width: 16px;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.linea__redesNaranja{
+    height: 1px;
+    width: 64px;
+    background: #D1B06B;
+    margin-left: 36px;
+    margin-top: 6px;
+}
+
+.button__Meet{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.button__Meet button{
+    padding: 12px 24px;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
