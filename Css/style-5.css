@@ -1,0 +1,80 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Cormorant:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant', serif;
+}
+body{
+    background-color: #1F2732;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.cont_inf{
+    background-color: #161D27;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    width: 715px;
+    padding: 47px 53px 47px 52px;
+}
+
+.cont_inf p samp{
+    color: #D1B06B;
+    font-size: 20px;
+}
+
+.cont_inf h2{
+    color: #FFF;
+    font-size: 30px;
+}
+
+.cont_inf p{
+    color: #D7D7D7;
+    font-size: 20px;
+}
+
+.leer-mas p{
+    color: #D1B06B;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.botton{
+    position: relative;
+    width: 715px;
+    height: 373px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.botton button{
+    position: absolute;
+    top: 38%;
+    left: 28%;
+    padding: 24px 100px ;
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+    background-color: #1F2732;
+    color: #FFF;
+}
+
+.botton .botton_color{
+    background-color: #D1B06B;
+    color: #1F2732;
+}
