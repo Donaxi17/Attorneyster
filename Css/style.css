@@ -34,6 +34,13 @@ header section{
     font-size: 34px;
     margin-left: 14px;
     margin-top: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.header__logoYtitulo h1 a{
+    color: white;
+    text-decoration: none;
 }
 
 .header__compra{
@@ -44,6 +51,8 @@ header section{
 .compra__cart{
     padding-right: 30px;
     display: flex;
+    cursor: pointer;
+    user-select: none;
 }
 
 .compra__cart img{
@@ -55,15 +64,24 @@ header section{
     margin-left: 8px;
 }
 
-
+.compra__cart p:hover{
+    color: #D1B06B;
+}
 
 .compra__boton{
-    height: 50px;
-    width: 160px;
+    height: 60px;
+    width: 180px;
     background: #2E3947;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.compra__boton:hover{
+    background: #D1B06B;
+    color: #161D27;
 }
 
 header article{
@@ -77,15 +95,36 @@ header article{
     border-bottom: 1px solid #2E3947;
 }
 
-.header__nav ul{
+.header__nav .nav__ul{
     list-style: none;
     display: flex;
+    position: relative;
 }
 
-.header__nav ul li{
+.header__nav .nav__ul li{
     padding-right: 20px;
     cursor: pointer;
     user-select: none;
+}
+
+.header__nav .nav__ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.header__nav .nav__ul li a:hover,
+.header__nav .nav__ul li:hover{
+    color: #D1B06B;
+}
+
+.header__nav .otras__paginas{
+    position: absolute;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #D1B06B;
+    top: 40px;
+    display: none;
 }
 
 .header__contacto{
@@ -144,7 +183,7 @@ header article{
 
 .descricion__perfil{
     padding-left: 120px;
-    margin-top: 60px;
+    margin-top: 160px;
 }
 
 .descricion__perfil h2{
