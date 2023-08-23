@@ -615,7 +615,84 @@ header article{
 }
 
 
+.reseñas_clientes{
+    background: #1F2732;
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
 
+.content_rc{
+    color: white;
+    width: 70vw;
+}
+
+.titulo_rc{
+    display: grid;
+    place-items: center;
+    margin-top: 80px;
+}
+
+.titulo_rc img{
+   margin-top: 20px;
+}
+
+.section_rc{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* .content__section_rc{
+    border: 1px solid #2E3947;
+} */
+
+.content__section_rc .content1__descripcion{
+    background: #2E3947;
+    border-radius: 0px 0px 0px 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.content1__descripcion img{
+    margin-top: 24px;
+    margin-left: 20px;
+    width: 24px;
+}
+
+.content1__descripcion p{
+    margin-top: 16px;
+    margin-left: 20px;
+    font-size: 14px;
+    width: 160px;
+}
+
+.content__section_rc .content2__descripcion{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.content2__descripcion img{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.content2__descripcion p{
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.content2__descripcion p span{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cd--separacion{
+    margin-bottom: 10px;
+}
 
 
 /* Estilos del input range
