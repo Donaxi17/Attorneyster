@@ -713,7 +713,7 @@ header article{
 .respuestas__article{
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 40px;
     gap: 30px;
 }
 
@@ -765,7 +765,7 @@ header article{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .button__Meet button{
@@ -773,4 +773,91 @@ header article{
     font-weight: 600;
     cursor: pointer;
     user-select: none;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+}
+
+.get__consultasGratis{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background: #1F2732;
+    color: white;
+}
+
+.get__consultasGratis .consul--content{
+    height: 340px;
+    width: 500px;
+}
+
+.anuncio__consulta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.anuncio__consulta article{
+    border: 6px solid #DFDFDF;
+    color: black;
+    width: 80%;
+    height: 80%;
+}
+
+.consulta__descripcion h2{
+    width: 350px;
+    margin-top: 20px;
+}
+
+.consulta__descripcion p{
+    width: 400px;
+    margin-top: 30px;
+}
+
+.consulta__descripcion button{
+    margin-top: 40px;
+    padding: 18px 46px;
+    color: #161D27;
+    font-weight: 600;
+    background: #D1B06B;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+.anuncio__consulta h2{
+    margin-top: 46px;
+    margin-left: 26px;
+    font-size: 28px;
+}
+
+.anuncio__consulta .parrafo__consult{
+    margin-top: 20px;
+    margin-left: 26px;
+    font-size: 14px;
+    width: 300px;
+    color: rgba(0, 0, 0, 0.70);
+}
+
+.anuncio__consulta article div{
+    display: flex;
+    align-items: center;
+    margin-left: 26px;
+    margin-top: 30px;
+}
+
+.anuncio__consulta article img{
+    width: 42px;
+}
+
+.anuncio__consulta article p{
+    margin-left: 10px;
+}
+
+.anuncio__consulta article p span{
+    font-weight: 600;
+    font-size: 20px;
 }
