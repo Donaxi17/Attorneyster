@@ -18,7 +18,6 @@ header section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .header__logoYtitulo{
@@ -651,7 +650,6 @@ header article{
     cursor: pointer;
     user-select: none;
 }
-
 
 .reseñas_clientes{
     background: #1F2732;

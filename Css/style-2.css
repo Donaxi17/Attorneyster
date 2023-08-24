@@ -3,40 +3,35 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-
 }
+
 main{
     background-color: #1F2732;
 }
+
 .contenedor{
     display: flex;
     justify-content: center;
     gap: 9vh;
-    
 }
 
 .contnedor-derecha{
     margin-top: 30px;
 }
+
 .contnedor-derecha h2 {
     width: 442px;
     font-size: 50px;
     color: #FFF;
 }
-p{
-    width: 660px;
-    color: #D7D7D7;
-    font-size: 25px;
-    margin-top: 30px;
-    
-}
+
 .social{
     display: flex;
     align-items: center;
     gap: 26px;
-    margin-top: 30px;
-    
+    margin-top: 30px; 
 }
+
 .boton{
     display: flex;
     padding: 28px 45px 29px 45px;
@@ -46,8 +41,8 @@ p{
     gap: 10px;
     padding: 40px;
     margin-top: 50px;
-   
 }
+
 .story-section{
     display: flex;
     flex-direction: column;
@@ -63,40 +58,46 @@ p{
     flex-direction: column;
     align-items: center;
 }
+
 .story img{
     width: 95px;
     height: 44px;
     flex-shrink: 0; 
-    
 }
+
 .story p{
     font-size: 25px;
 }
+
 .galeria{
     display: flex;
     gap: 20px;
 }
+
 .imput{
     display: flex;
     padding: 10vw;
 }
+
 .imput_izquierda{
     width: 1326px;
-
 }
+
 .imput_derecha {
     font-size: 20px;
     background-color: #D1B06B;
 }
+
 .imput_derecha img {
     margin-top: 50px;
 }
+
 .value{
     display: flex;
     justify-content: center;
-    gap: 40px;
-    
+    gap: 40px; 
 }
+
 .value__infor{
     display: flex;
     width: 776px;
@@ -108,80 +109,305 @@ p{
     margin-top: 20px;
     padding: 26px
 }
+
 .value__izquied h2{
     color: #FFF;
     margin-top: 20px;
 }
+
 .value__izquied p{
     font-size: 19px;
 }
+
 .value___tex h2{
     color: #FFF;
     font-size: 25px;
 }
+
 .value___tex p{
     font-size: 20px;
+    color: #FFF;
 }
+
+/* ---------------------------- */
+
+.respuestas_abogado{
+    width: 100%;
+    height: 800px;
+    background: white;
+}
+
+.respuestas__titulo{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.respuestas__titulo div{
+    margin-top: 80px;
+}
+
+.respuestas__titulo img{
+    margin-top: 20px;
+    width: 80px;
+}
+
+.respuestas__article{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.content__abogados{
+    position: relative;
+}
+
+.respuestas__article .foto__3abogados{
+    width: 220px;
+}
+
+.redes__abogados{
+    background: white;
+    position: absolute;
+    bottom: -40px;
+    left: 40px;
+    height: 80px;
+    width: 140px;
+    text-align: center;
+}
+
+.redes__abogados h3{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.redes__abogados p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #D1B06B;
+    margin-top: 4px;
+}
+
+.redes__socialesAbogados img{
+    width: 16px;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.linea__redesNaranja{
+    height: 1px;
+    width: 64px;
+    background: #D1B06B;
+    margin-left: 36px;
+    margin-top: 6px;
+}
+
+.button__Meet{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.button__Meet button{
+    padding: 12px 24px;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+}
+
+/* ---------------------------- */
+
+.reseñas_clientes{
+    background: #1F2732;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.content_rc{
+    color: white;
+    width: 70vw;
+}
+
+.titulo_rc{
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+}
+
+.titulo_rc img{
+   margin-top: 20px;
+}
+
+.section_rc{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content__section_rc .content1__descripcion{
+    background: #2E3947;
+    border-radius: 0px 0px 0px 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.content1__descripcion img{
+    margin-top: 24px;
+    margin-left: 20px;
+    width: 24px;
+}
+
+.content1__descripcion p{
+    margin-top: 16px;
+    margin-left: 20px;
+    font-size: 14px;
+    width: 160px;
+}
+
+.content__section_rc .content2__descripcion{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.content2__descripcion img{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.content2__descripcion p{
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.content2__descripcion p span{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cd--separacion{
+    margin-bottom: 10px;
+}
+
+/* ---------------------------- */
+
+.ayudar__problema{
+    background: white;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__partners{
+    display: grid;
+    place-items: center;
+    margin-top: 30px;
+    height: 50%;
+}
+
+.title__partners{
+    display: flex;
+    align-items: center;
+}
+
+.title__partners h3{
+    font-size: 28px;
+    padding: 0px 30px;
+}
+
+.iconos__marca{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.iconos__marca img{
+    margin-right: 40px;
+}
+
+/* ---------------------------- */
+
 .footer{
-    width: 100vw;
+    margin-top: 40px;
+    width: 100%;
     height: 700px;
     background-color: #1F2732;
+    display: grid;
+    place-items: center;
 }
+
 .encavezado{
     display: flex;
     justify-content: center;
     text-align: center;
     padding: 50px;
-    font-size: 35px;
+    font-size: 32px;
     color: #FFF;
     gap: 8vw;
 }
+
 .icono__izqu{
     border-top: 1px solid #3A4553;
     border-bottom:  1px solid#3A4553;
 }
+
 .encavezado__logo{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.encavezado__logo img{
+    width: 50px;
+    margin-right: 10px;
+}
+
 .container {
     display: flex;
     justify-content: center;
     gap: 12vh;
-   
-    
 }
+
 .footer-links h4 {
     color: #FFFFFF;
     margin-bottom: 25px;
     border-bottom:  1px solid#3A4553;
     border-top: 1px solid #3A4553;
-    font-size: 34px;
+    font-size: 28px;
     padding: 14px;
 }
+
 .footer-links ul li{
     margin-top: 10px;
+    list-style: none;
 }
+
 .footer-links ul li a {
-    font-size: 22px;
+    font-size: 16px;
     text-decoration: none;
     color: #D7D7D7;
-
-    
-    
 }
+
 .footer__separacion {
     margin-top: 20px;
 }
+
 .footer-quick{
     display: flex;
     gap: 10vh;
     color: #D7D7D7;
-    
 }
+
 .footer-social{
-    width: 1430px;
+    width: 100%;
     height: 80px;
     display: flex;
     align-items: center;
@@ -190,24 +416,21 @@ p{
     border-top: 1px solid #3A4553;
     color: #FFFFFF;
     margin-top: 60px;
-    font-size: 22px;
 }
 
 .footer__social{
-    width: 100vw;
+    width: 78%;
     display: flex;
     justify-content: center;
 }
+
 .footer-social p span{
     color: #D1B06B;
-    
 }
+
 .social-link{
     display: flex;
     align-items: center;
     color: #D1B06B;
-    gap: 10px;
-    
-    
+    gap: 10px; 
 }
-
