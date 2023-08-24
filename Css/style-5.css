@@ -137,8 +137,9 @@ header article{
     margin-top: 100px;
     display: grid;
     place-items: center;
+    text-align: center;
     color: white;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .titulo__pagina img{
