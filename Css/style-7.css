@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    background-color: #1F2732;
+    display: flex;
+    justify-content: center;
+  
+}
+.contenedor__background{
+    border: 3px solid blue;
+    width: 40vw;
+    height: 20vh;
+    background-color: #D1B06B;
+    background-image: url("../imagenes_/Photo\ suabe\ .png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin-bottom: 60px;
+    
+    
+}
+.contenedor__background img{
+    border: 2px solid red;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 45px;
+    background-color: #1F2732;
+    
+    
+
+}
+.contenedor__background h2{
+    font-size: 35px;
+}
+.contenedor__background p{
+    font-size: 16px;
+}
+.background__img{
+    width: 20vw;
+    height: 20vh;
+    
+    
+}
+.section__tex{
+    background-color: #1F2732;
+    text-align: center;
+   
+}
+.section__tex h2{
+    color: #FFF;
+    font-size: 35px;
+    margin-bottom: 20px;
+   
+}
+.plan{
+    border: 2px solid red;
+    width: 15vw;
+    height: 60vh;
+    text-align: center;
+    border: 3px solid yellow;
+    background-color: #161D27;
+    
+}
+
+.plan__encabezado  {
+    border-bottom:  2px solid  #3A4553;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 15,5vw;
+    height: 8vh;
+    text-align: center;
+    
+}
+.plan__encabezado h2{
+    font-size: 35px;
+    color: #FFF;
+}
+.plan__encabezado h4{
+    color: #D1B06B;
+    font-size: 14px;
+}
+.plan__valor{
+    border-bottom:  2px solid  #3A4553;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+}
+.plan__valor h2{
+    color: #D1B06B;
+    font-size: 35px;
+}
+.plan__background{
+    border: 1px solid red;
+
+}
+.plan__cuerpo {
+    border-bottom:  2px solid  #3A4553;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 8vh;
+    
+   
+}
+.plan__background{
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+}
+.plan__cuerpo .plan_style{
+    padding: 10px;
+}
+button{
+    width: 10vw;
+    height: 5vh;
+    
+}
