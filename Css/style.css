@@ -1002,9 +1002,11 @@ header article{
     color: #D1B06B;
     font-size: 22px;
 }
+
 samp{
     color: #D1B06B;
 }
+
 .conte_derecha{
     width: 40vw;
     display: flex;
@@ -1012,6 +1014,7 @@ samp{
     gap: 14px;
     justify-content: center;
 }
+
 .conte_derecha h2{
     border-top: 2px solid #3A4553;
     color: #FFF;
@@ -1024,6 +1027,7 @@ samp{
     font-size: 22px;
     color: #D7D7D7; 
 }
+
 .conte__blog{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -1031,32 +1035,39 @@ samp{
     width: 76vw;
     gap: 30px;
 }
+
 .conte__blog img{
     width: 100%;
 }
+
 .leer_mas p{
     color: #D1B06B;
     text-decoration: underline;
 }
+
 .conte_blog_infor{
     width: 320px;
 }
+
 .conte_1{
     margin-top: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 .conte__infor h2{
     color: #FFF;
     border-top: 2px solid #3A4553;
     padding-top: 16px;
     margin-top: 12px;
 }
+
 .conte__infor p{
     padding: 10px 0px;
     color: #D7D7D7;
 }
+
  .leer_mas{
   padding: 20px 0px ;  
 }
