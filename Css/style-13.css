@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2732;
+    padding: 10vw ;   
+}
+.conte_fond{
+    width: 50vw;
+    height: 25vh;
+    background-color: #D1B06B;
+}
+
+.conte_inf{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    top: 29%;
+    gap: 15px;
+    background-color: #D1B06B;
+}
+.izquie{
+    height: 64px;
+    width: 64px;
+    color: #FFF;
+    background-color: #1F2732;
+    display: flex;
+    align-items: center;;
+    justify-content: center;
+
+    
+}

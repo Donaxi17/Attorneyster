@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.contenedor{
+    text-align: center;
+    background-color: #1F2732;
+    display: flex;
+    justify-content: center;
+    
+}
+.contenedor__infor{
+    display: flex;
+    width: 754px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.contenedor__infor h2{
+    font-size: 400px;
+    color: #D1B06B;
+}
+.contenedor__infor img{
+    width: 95px;
+    height: 44px;
+}
+.contenedor__infor h3{
+    font-size: 65px;
+    color: #FFF;
+}
+.contenedor__infor p {
+    font-size: 20px;
+    color: #FFF;
+}
+.contenedor__infor button{
+    background-color: #D1B06B;
+    padding: 28px 73px 29px 73px;
+    margin-bottom: 30px;
+}
+.footer{
+    width: 100vw;
+    height: 700px;
+    background-color: #1F2732;
+}
+.encavezado{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    font-size: 35px;
+    color: #FFF;
+    gap: 8vw;
+}
+.icono__izqu{
+    border-top: 1px solid #3A4553;
+    border-bottom:  1px solid#3A4553;
+}
+.encavezado__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 12vh;
+   
+    
+}
+.footer-links h4 {
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    border-bottom:  1px solid#3A4553;
+    border-top: 1px solid #3A4553;
+    font-size: 34px;
+    padding: 14px;
+}
+.footer-links ul li{
+    margin-top: 10px;
+}
+.footer-links ul li a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #D7D7D7;
+
+    
+    
+}
+.footer__separacion {
+    margin-top: 20px;
+}
+.footer-quick{
+    display: flex;
+    gap: 10vh;
+    color: #D7D7D7;
+    
+}
+.footer-social{
+    width: 1430px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid#3A4553;
+    border-top: 1px solid #3A4553;
+    color: #FFFFFF;
+    margin-top: 60px;
+    font-size: 22px;
+}
+
+.footer__social{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.footer-social p span{
+    color: #D1B06B;
+    
+}
+.social-link{
+    display: flex;
+    align-items: center;
+    color: #D1B06B;
+    gap: 10px;
+    
+    
+}
