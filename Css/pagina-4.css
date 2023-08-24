@@ -1,0 +1,39 @@
+
+*{
+   margin: 0;
+   font-family: 'Outfit', sans-serif;
+}
+body{
+    background: #1F2732;
+}
+.imagen_principal {
+    display: grid;
+    place-items: center;
+}
+.img--pricipal{
+    width: 75%;
+    height: 88%;
+}
+.pagina-4{
+    max-width: 1700px;
+    margin: auto;
+}
+.infarmacion{
+    color: #D7D7D7;
+    display: grid;
+    gap: 20px;
+    width: 75%;
+    margin: auto;
+}
+li{
+    line-height: 3rem;
+}
+.Introduction, .About--the--law, .services,.Overview {
+    display: grid;
+    gap: 10px;}
+h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
