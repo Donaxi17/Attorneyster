@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1F2732;
+}
+
+/* ------------- */
+header{
+    padding: 30px 120px;
+    z-index: 1000;
+    height: 500px;
+    position: relative;
+}
+
+.fondo__header{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+header section{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logoYtitulo{
+    display: flex;
+    align-items: center;
+}
+
+.header__logoYtitulo img{
+    width: 50px;
+}
+
+.header__logoYtitulo h1{
+    font-size: 34px;
+    margin-left: 14px;
+    margin-top: 8px;
+}
+
+.header__compra{
+    display: flex;
+    align-items: center;
+}
+
+.compra__cart{
+    padding-right: 30px;
+    display: flex;
+}
+
+.compra__cart img{
+    width: 20px;
+}
+
+.compra__cart p{
+    margin-top: 4px;
+    margin-left: 8px;
+}
+
+.compra__boton{
+    height: 50px;
+    width: 160px;
+    background: #2E3947;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header article{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 80px;
+    border-top: 1px solid #4E555F;
+    border-bottom: 1px solid #4E555F;
+}
+
+.header__nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.header__nav ul li{
+    padding-right: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.header__contacto{
+    display: flex;
+}
+
+.header__contacto figure{
+    border: 2px solid #D1B06B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.header__telefono{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color--header{
+    color: #D1B06B;
+}
+
+.header__correo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo__pagina{
+    margin-top: 100px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.titulo__pagina img{
+    margin-top: 20px;
+}
+/* ---------------- */
+
+.lista__abogados{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1100px;
+}
+
+.kkk{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.lista__abogados--cuadros .conten__cuadros{
+    border: 1px solid #1F2732;
+    width: 500px;
+    height: 260px;
+    background: #2E3947;
+}
+
+.conten__cuadros .img__nombre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 90%;
+}
+
+.img__nombre div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img__nombre img{
+    width: 60px;
+}
+
+.img__nombre .comillas{
+    width: 50px;
+}
+
+.img__nombre p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.img__nombre span{
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+.conten__cuadros .parrafo__cuadro{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 420px;
+}
+
+/* -------------------- */
+
+.get__consultasGratis{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background: #1F2732;
+    color: white;
+}
+
+.get__consultasGratis .consul--content{
+    height: 340px;
+    width: 500px;
+}
+
+.anuncio__consulta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.anuncio__consulta article{
+    border: 6px solid #DFDFDF;
+    color: black;
+    width: 80%;
+    height: 80%;
+}
+
+.consulta__descripcion h2{
+    width: 350px;
+    margin-top: 20px;
+}
+
+.consulta__descripcion p{
+    width: 400px;
+    margin-top: 30px;
+}
+
+.consulta__descripcion button{
+    margin-top: 40px;
+    padding: 18px 46px;
+    color: #161D27;
+    font-weight: 600;
+    background: #D1B06B;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+.anuncio__consulta h2{
+    margin-top: 46px;
+    margin-left: 26px;
+    font-size: 28px;
+}
+
+.anuncio__consulta .parrafo__consult{
+    margin-top: 20px;
+    margin-left: 26px;
+    font-size: 14px;
+    width: 300px;
+    color: rgba(0, 0, 0, 0.70);
+}
+
+.anuncio__consulta article div{
+    display: flex;
+    align-items: center;
+    margin-left: 26px;
+    margin-top: 30px;
+}
+
+.anuncio__consulta article img{
+    width: 42px;
+}
+
+.anuncio__consulta article p{
+    margin-left: 10px;
+}
+
+.anuncio__consulta article p span{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* ----------------------- */
+
+.contactos__abogados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: white;
+    width: 100%;
+    height: 800px;
+}
+
+.contactos__abogados img{
+    width: 100%;
+    height: 100%;
+}
+
+.contantos__article{
+    background: #1F2732;
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+}
+
+.contantos__article div{
+    margin-top: 100px;
+    width: 100%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 0px 80px;
+}
+
+.contantos__article input{
+    border: none;
+    border-bottom: 1px solid #3A4553;
+    padding-bottom: 10px;
+    background: #1F2732;
+    color: white;
+}
+
+.contantos__article input:focus{
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+.contantos__article input::placeholder{
+    color: white;
+}
+
+.contantos__article .input__mensaje{
+    margin-top: 20px;
+    padding-bottom: 40px;
+    width: 210%;
+}
+
+.contantos__article button{
+    width: 200px;
+    height: 60px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* ----------------- */
+
+
+.footer{
+    margin-top: 40px;
+    width: 100%;
+    height: 700px;
+    background-color: #1F2732;
+    display: grid;
+    place-items: center;
+}
+
+.encavezado{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    font-size: 32px;
+    color: #FFF;
+    gap: 8vw;
+}
+
+.icono__izqu{
+    border-top: 1px solid #3A4553;
+    border-bottom:  1px solid#3A4553;
+}
+
+.encavezado__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encavezado__logo img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 12vh;
+}
+
+.footer-links h4 {
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    border-bottom:  1px solid#3A4553;
+    border-top: 1px solid #3A4553;
+    font-size: 28px;
+    padding: 14px;
+}
+
+.footer-links ul li{
+    margin-top: 10px;
+    list-style: none;
+}
+
+.footer-links ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #D7D7D7;
+}
+
+.footer__separacion {
+    margin-top: 20px;
+}
+
+.footer-quick{
+    display: flex;
+    gap: 10vh;
+    color: #D7D7D7;
+}
+
+.footer-social{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid#3A4553;
+    border-top: 1px solid #3A4553;
+    color: #FFFFFF;
+    margin-top: 60px;
+}
+
+.footer__social{
+    width: 78%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social p span{
+    color: #D1B06B;
+}
+
+.social-link{
+    display: flex;
+    align-items: center;
+    color: #D1B06B;
+    gap: 10px; 
+}
