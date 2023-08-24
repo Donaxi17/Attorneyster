@@ -960,10 +960,10 @@ header article{
 }
 
 .contantos__article button{
-    width: 220px;
-    height: 70px;
+    width: 200px;
+    height: 60px;
     font-weight: 600;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     cursor: pointer;
     user-select: none;
 }
