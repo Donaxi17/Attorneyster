@@ -1,0 +1,389 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1F2732;
+}
+
+
+header{
+    padding: 30px 120px;
+    z-index: 1000;
+    height: 500px;
+    position: relative;
+}
+
+.fondo__header{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+header section{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logoYtitulo{
+    display: flex;
+    align-items: center;
+}
+
+.header__logoYtitulo img{
+    width: 50px;
+}
+
+.header__logoYtitulo h1{
+    font-size: 34px;
+    margin-left: 14px;
+    margin-top: 8px;
+}
+
+.header__compra{
+    display: flex;
+    align-items: center;
+}
+
+.compra__cart{
+    padding-right: 30px;
+    display: flex;
+}
+
+.compra__cart img{
+    width: 20px;
+}
+
+.compra__cart p{
+    margin-top: 4px;
+    margin-left: 8px;
+}
+
+.compra__boton{
+    height: 50px;
+    width: 160px;
+    background: #2E3947;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header article{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 80px;
+    border-top: 1px solid #4E555F;
+    border-bottom: 1px solid #4E555F;
+}
+
+.header__nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.header__nav ul li{
+    padding-right: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.header__contacto{
+    display: flex;
+}
+
+.header__contacto figure{
+    border: 2px solid #D1B06B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.header__telefono{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color--header{
+    color: #D1B06B;
+}
+
+.header__correo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo__pagina{
+    margin-top: 100px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+}
+
+.titulo__pagina img{
+    margin-top: 20px;
+}
+
+main{
+    background-color:  #1F2732;;
+
+}
+
+.encavezado{
+    display: flex;
+    justify-content: center;
+}
+.contenededor{
+    display: flex;
+    justify-content: center; 
+    gap: 40px;
+}
+
+.contenedor__izquierda{
+    width: 850px;
+}
+.contenedor__izquierda h2{
+    font-size: 40px;
+    color: #FFF;;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.contenedor__izquierda p{
+    font-size: 20px;
+    color: #D7D7D7;
+
+}
+.contenedor__izquierda  li {
+    font-size: 20px;
+    color: #D7D7D7;
+
+}
+.contenedor__izquierda div {
+    margin-bottom: 20px;
+}
+.contenedor__izquierda__img p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    
+}
+.contenedore__detalles{
+    background-color: #FFF;
+    height: 850px;
+    padding: 65px;
+   
+    
+}
+.contenedor__derecha{
+    width: 510px;
+}
+.contenedor__derecha h2{
+    font-size: 35px;
+    color: #1F2732;
+    padding-bottom: 20px;
+
+}
+.detalles{
+  
+    border-bottom: 2px solid #CACACA;
+    margin-bottom: 30px;
+    
+}
+.detalles h3{
+    font-size: 25px;
+    color: #1F2732;
+}
+.detalles p{
+    font-size: 20px;
+    color: #909090;
+}
+.contenedor__derecha .button{
+    background-color:#D1B06B ;
+    padding: 20px;
+    
+    
+}
+.button__border{
+    border: 1px solid rgb(0, 0, 0); 
+    width: 95%;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+.contenededor__about{
+  
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+.about__posicion{
+    background-image: url(../Imagenes/P6-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding: 40px;
+
+}
+.about__posicion h2{
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.about__posicion h3{
+    color: #D1B06B;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.about__posicion p{
+    color: #D7D7D7;
+    margin-bottom: 20px;
+}
+.about__posicion button{
+    display: flex;
+    padding: 20px 80px ;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.contenededor__result{
+    background-color: #D1B06B;
+    height: 400px;
+    padding: 40px;
+
+}
+.contenededor__result h2{
+    color: #1F2732;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.contenededor__result h3{
+    color: #1F2732;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.contenededor__result p{
+    color: #1F2732;
+    margin-bottom: 20px;
+}
+.contenededor__result button{
+    display: flex;
+
+    padding: 20px 80px ;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.footer{
+    width: 100%;
+    height: 700px;
+    background-color: #1F2732;
+    display: grid;
+    place-items: center;
+}
+
+.encavezado{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    font-size: 32px;
+    color: #FFF;
+    gap: 8vw;
+}
+
+.icono__izqu{
+    border-top: 1px solid #3A4553;
+    border-bottom:  1px solid#3A4553;
+}
+
+.encavezado__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encavezado__logo img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 12vh;
+}
+
+.footer-links h4 {
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    border-bottom:  1px solid#3A4553;
+    border-top: 1px solid #3A4553;
+    font-size: 28px;
+    padding: 14px;
+}
+
+.footer-links ul li{
+    margin-top: 10px;
+    list-style: none;
+}
+
+.footer-links ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #D7D7D7;
+}
+
+.footer__separacion {
+    margin-top: 20px;
+}
+
+.footer-quick{
+    display: flex;
+    gap: 10vh;
+    color: #D7D7D7;
+}
+
+.footer-social{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid#3A4553;
+    border-top: 1px solid #3A4553;
+    color: #FFFFFF;
+    margin-top: 60px;
+}
+
+.footer__social{
+    width: 78%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social p span{
+    color: #D1B06B;
+}
+
+.social-link{
+    display: flex;
+    align-items: center;
+    color: #D1B06B;
+    gap: 10px; 
+}
