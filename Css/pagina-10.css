@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    font-family: 'Outfit', sans-serif;
+    
  }
 body{
     background: #1F2732;
@@ -14,31 +14,53 @@ body{
     margin: auto;
 }
 .img--inicio{
-    width: 130%;
+    width: 90%;
     height: 95%;
 }
 .informacion{
     color: #D7D7D7;
     display: grid;
     justify-items: center;
-    gap: 20px;
+    gap: 2rem;
     margin: auto;
+    padding: 0% 16%;
 }
-.Legal, .Equal--Justice{
+.titulo{
+    border-bottom: 1px solid #2E3947;
+    padding-bottom: 18px;
+    font-size: 36px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.inf{
+    color: #D1B06B;
+    font-size: 11px;
+}
+.Legal, .Equal--Justice, .Make--real{
     display: grid;
-    gap: 3rem;
+    gap: 2rem;
 }
-
+.contenedor-cuadro{
+    width: 100%;
+}
+ul,ol{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .cuadro{
     background: #D1B06B;
-    width: 50%;
     height: 100%;
 }
 .cuadro--info{
     display: grid;
-    padding: 59px 77px;
+    padding: 30px 77px;
     justify-content: center;
     align-items: flex-start;
     color: #1F2732;
     font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+}
+.ul, .ol{
+    display: grid;
+    gap: 1rem;
 }
