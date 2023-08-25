@@ -1,16 +1,8 @@
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   margin: 0;
 }
 
-body{
-    background-color: #1F2732;
-}
-
-/* -------------------- */
-/* -------------------- */
 /* -------------------- */
 
 header{
@@ -147,122 +139,41 @@ header article{
 }
 
 /* -------------------- */
-/* -------------------- */
-/* -------------------- */
 
-.contenedor{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 140px 0px;
-    margin-top: 60px;
+body{
+    background: #1F2732;
 }
-
-.cont{
-    width: 90%;
+.imagen_principal {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
     place-items: center;
-    gap: 30px;
+    margin-top: 80px;
 }
-
-.cont_img{ 
-    width: 600px;
+.img--pricipal{
+    width: 75%;
+    height: 88%;
 }
-
-.cont_inf{
-    width: 100%;
-    background-color: #161D27;
-    display: flex;
-    flex-direction: column;
-    gap: 21px;
-    padding: 47px 53px 47px 52px;
+.pagina-4{
+    max-width: 1700px;
+    margin: auto;
 }
-
-.cont_inf p samp{
-    color: #D1B06B;
-    font-size: 20px;
-}
-
-.cont_inf h2{
-    color: #FFF;
-    font-size: 30px;
-}
-
-.cont_inf p{
+.infarmacion{
     color: #D7D7D7;
-    font-size: 20px;
-}
-
-.leer-mas p{
-    color: #D1B06B;
-    text-decoration: underline;
-    font-size: 22px;
-}
-
-.botton{
-    position: relative;
-    height: 260px;
-    width: 100%;
-}
-
-.contenedor img{
-    width: 100%;
-    height: 100%;
-}
-
-.botton button{
-    position: absolute;
-    top: 36%;
-    left: 22%;
-    padding: 24px 100px ;
-    font-size: 24px;
-    font-weight: 600;
-    border: none;
-    background-color: #1F2732;
-    color: #FFF;
-}
-
-.botton .botton_color{
-    background-color: #D1B06B;
-    color: #1F2732;
-}
-
-/* ---------------------------- */
-
-.ayudar__problema{
-    background: white;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content__partners{
     display: grid;
-    place-items: center;
-    margin-top: 30px;
-    height: 50%;
+    gap: 20px;
+    width: 75%;
+    margin: auto;
 }
-
-.title__partners{
-    display: flex;
-    align-items: center;
+li{
+    line-height: 3rem;
 }
-
-.title__partners h3{
-    font-size: 28px;
-    padding: 0px 30px;
-}
-
-.iconos__marca{
-    display: flex;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.iconos__marca img{
-    margin-right: 40px;
+.Introduction, .About--the--law, .services,.Overview {
+    display: grid;
+    gap: 10px;}
+h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
 }
 
 /* ---------------------------- */

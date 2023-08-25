@@ -1,32 +1,15 @@
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
-body{
-    background-color: #1F2732;
-}
-
-/* -------------------- */
-/* -------------------- */
-/* -------------------- */
+/* ---------------------- */
 
 header{
     padding: 30px 120px;
     z-index: 1000;
-    height: 500px;
-    position: relative;
-}
-
-.fondo__header{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    left: 0;
-    top: 0;
 }
 
 header section{
@@ -86,8 +69,8 @@ header article{
     justify-content: space-between;
     margin-top: 30px;
     height: 80px;
-    border-top: 1px solid #4E555F;
-    border-bottom: 1px solid #4E555F;
+    border-top: 1px solid #2E3947;
+    border-bottom: 1px solid #2E3947;
 }
 
 .header__nav ul{
@@ -133,142 +116,56 @@ header article{
     justify-content: center;
 }
 
-.titulo__pagina{
-    margin-top: 100px;
-    display: grid;
-    place-items: center;
-    text-align: center;
-    color: white;
-    font-size: 24px;
-}
+/* ---------------------- */
 
-.titulo__pagina img{
-    margin-top: 20px;
+body{
+    background-color: #1F2732;
 }
-
-/* -------------------- */
-/* -------------------- */
-/* -------------------- */
 
 .contenedor{
+    text-align: center;
     display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 140px 0px;
-    margin-top: 60px;
+    justify-content: center;  
 }
-
-.cont{
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    place-items: center;
+.contenedor__infor{
+    display: flex;
+    width: 754px;
+    flex-direction: column;
+    align-items: center;
     gap: 30px;
 }
-
-.cont_img{ 
-    width: 600px;
-}
-
-.cont_inf{
-    width: 100%;
-    background-color: #161D27;
-    display: flex;
-    flex-direction: column;
-    gap: 21px;
-    padding: 47px 53px 47px 52px;
-}
-
-.cont_inf p samp{
+.contenedor__infor h2{
+    margin-top: 60px;
+    font-size: 360px;
     color: #D1B06B;
-    font-size: 20px;
 }
-
-.cont_inf h2{
-    color: #FFF;
-    font-size: 30px;
+.contenedor__infor img{
+    width: 95px;
+    height: 44px;
+    margin-top: -60px;
 }
-
-.cont_inf p{
-    color: #D7D7D7;
-    font-size: 20px;
-}
-
-.leer-mas p{
-    color: #D1B06B;
-    text-decoration: underline;
-    font-size: 22px;
-}
-
-.botton{
-    position: relative;
-    height: 260px;
-    width: 100%;
-}
-
-.contenedor img{
-    width: 100%;
-    height: 100%;
-}
-
-.botton button{
-    position: absolute;
-    top: 36%;
-    left: 22%;
-    padding: 24px 100px ;
-    font-size: 24px;
-    font-weight: 600;
-    border: none;
-    background-color: #1F2732;
+.contenedor__infor h3{
+    font-size: 48px;
     color: #FFF;
 }
-
-.botton .botton_color{
+.contenedor__infor p {
+    font-size: 18px;
+    color: #FFF;
+}
+.contenedor__infor button{
     background-color: #D1B06B;
-    color: #1F2732;
-}
-
-/* ---------------------------- */
-
-.ayudar__problema{
-    background: white;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content__partners{
-    display: grid;
-    place-items: center;
-    margin-top: 30px;
-    height: 50%;
-}
-
-.title__partners{
-    display: flex;
-    align-items: center;
-}
-
-.title__partners h3{
-    font-size: 28px;
-    padding: 0px 30px;
-}
-
-.iconos__marca{
-    display: flex;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.iconos__marca img{
-    margin-right: 40px;
+    padding: 28px 73px 29px 73px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 30px;
 }
 
 /* ---------------------------- */
 
 .footer{
-    margin-top: 40px;
+    margin-top: 100px;
     width: 100%;
     height: 700px;
     background-color: #1F2732;
