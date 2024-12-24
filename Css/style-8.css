@@ -97,6 +97,16 @@ header article{
     user-select: none;
 }
 
+.header__nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.header__nav ul li a:hover,
+.header__nav ul li:hover{
+    color: #D1B06B;
+}
+
 .header__contacto{
     display: flex;
 }

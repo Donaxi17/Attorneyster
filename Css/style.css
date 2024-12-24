@@ -68,8 +68,8 @@ header section{
 }
 
 .compra__boton{
-    height: 60px;
-    width: 180px;
+    height: 50px;
+    width: 160px;
     background: #2E3947;
     display: flex;
     align-items: center;
